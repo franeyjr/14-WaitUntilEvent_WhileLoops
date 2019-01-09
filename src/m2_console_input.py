@@ -129,10 +129,16 @@ def input_it_all():
          Peace & Love.
     """
     # -------------------------------------------------------------------------
-    # TODO: 5. Implement and test this function.
+    # DONE: 5. Implement and test this function.
     #   The testing code is already written for you (above).
     # -------------------------------------------------------------------------
-
+    decimal = float(input('Enter a positive floating point number: '))
+    number = int(input('Enter a positve integer: '))
+    letters = input('Enter a string: ')
+    for _ in range(number):
+        print(decimal ** (1/2))
+    for _ in range(number):
+        print(letters)
 
 # -----------------------------------------------------------------------------
 # Calls  main  to start the ball rolling.
